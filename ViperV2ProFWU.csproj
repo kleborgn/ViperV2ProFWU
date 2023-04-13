@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Kilian\Downloads\ViperV2Pro_FirmwareUpdater_v1.02.03_r1\ViperV2ProFWU.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D28A12E-FC06-44C2-AFC5-4F9064CDC8D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>ViperV2ProFWU</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.21367</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>WirelessSetFWU</RootNamespace>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomProgressBar">
+      <HintPath>lib\CustomProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomShapedFormRegion\BitmapToRegion.cs" />
+    <Compile Include="CustomerFirmwareUpdater\MyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="appContextDevice.cs" />
+    <Compile Include="CLocalize.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="DeviceInterface.cs" />
+    <Compile Include="DeviceListenerEvent.cs" />
+    <Compile Include="DeviceListener.cs" />
+    <Compile Include="FormFWUStep1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGuider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdateEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="PromptExitSynapse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="eState.cs" />
+    <Compile Include="PageIndex.cs" />
+    <Compile Include="Devtype.cs" />
+    <Compile Include="UpdateInfo.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Resources\ResourceStr.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormFWUStep1.resx" />
+    <EmbeddedResource Include="FormGuider.resx" />
+    <EmbeddedResource Include="FormUpdateEnd.resx" />
+    <EmbeddedResource Include="PromptExitSynapse.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\ResourceStr.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

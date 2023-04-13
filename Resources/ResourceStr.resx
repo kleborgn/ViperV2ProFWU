@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="havelatestfw" xml:space="preserve">
+    <value>You already have the latest firmware.</value>
+  </data>
+  <data name="plugdongle" xml:space="preserve">
+    <value>Plug in the wireless USB dongle to your PC.</value>
+  </data>
+  <data name="guidemessageforkb" xml:space="preserve">
+    <value>This utility will check the firmware, and update your keyboard if necessary.</value>
+  </data>
+  <data name="congratulations" xml:space="preserve">
+    <value>CONGRATULATIONS!</value>
+  </data>
+  <data name="checkturretkb" xml:space="preserve">
+    <value>Now let’s check your Razer Turret keyboard.</value>
+  </data>
+  <data name="conntestmouse" xml:space="preserve">
+    <value>Connect the mouse to your PC with the supplied USB cable.</value>
+  </data>
+  <data name="finished" xml:space="preserve">
+    <value>Finished!</value>
+  </data>
+  <data name="reminder" xml:space="preserve">
+    <value>REMINDER</value>
+  </data>
+  <data name="Nounplug" xml:space="preserve">
+    <value>Please don't power off your computer or unplug your device(s)</value>
+  </data>
+  <data name="updatefail" xml:space="preserve">
+    <value>Firmware update failed. 
+Please reconnect your device and click retry.</value>
+  </data>
+  <data name="checkturretmouse" xml:space="preserve">
+    <value>Now let’s check your Razer Turret mouse.</value>
+  </data>
+  <data name="docknoupdate" xml:space="preserve">
+    <value>No Update Required</value>
+  </data>
+  <data name="switchmsoff" xml:space="preserve">
+    <value>Switch the mouse off.</value>
+  </data>
+  <data name="wirelessdongle" xml:space="preserve">
+    <value>●   Razer Turret wireless USB dongle (Xbox One Edition)</value>
+  </data>
+  <data name="anupdaterequired" xml:space="preserve">
+    <value>An update is required.</value>
+  </data>
+  <data name="startagain" xml:space="preserve">
+    <value>START AGAIN</value>
+  </data>
+  <data name="recommandmessage" xml:space="preserve">
+    <value>It’s recommended to have another mouse (or trackpad) connected before starting, as the Razer mouse will be temporarily unavailable during the update process.</value>
+  </data>
+  <data name="guidemessageformouse" xml:space="preserve">
+    <value>This utility will check the firmware, and update your mouse if necessary.</value>
+  </data>
+  <data name="updatesuccessful" xml:space="preserve">
+    <value>Update Successful</value>
+  </data>
+  <data name="keyboard" xml:space="preserve">
+    <value>●   Razer Turret keyboard (Xbox One Edition)</value>
+  </data>
+  <data name="mouse" xml:space="preserve">
+    <value>●   Razer Turret mouse (Xbox One Edition)</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="updatefw" xml:space="preserve">
+    <value>Updating…</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>RAZER {0} FIRMWARE UPDATER</value>
+  </data>
+  <data name="shutdownrazerapps" xml:space="preserve">
+    <value>If you proceed, we will automatically shutdown running Razer applications.</value>
+  </data>
+  <data name="closesynapseandotherapp" xml:space="preserve">
+    <value>The update is not able to proceed because Synapse or some other
+application is still running.
+                                                     
+Please ensure that Synapse and all other applications are closed
+before restarting the update.</value>
+  </data>
+  <data name="exitsynapse" xml:space="preserve">
+    <value>Please close all applications under Razer Central before proceeding. Right-click the Razer icon on the systray and choose ‘Exit All Apps’.</value>
+  </data>
+  <data name="devicewithnewver" xml:space="preserve">
+    <value>Your device has been updated to the latest firmware.</value>
+  </data>
+  <data name="verifyfw" xml:space="preserve">
+    <value>Verifying firmware...</value>
+  </data>
+  <data name="updatefinish" xml:space="preserve">
+    <value>Updating Finished!</value>
+  </data>
+  <data name="BLfailretry" xml:space="preserve">
+    <value>Enter bootloader mode unsuccessful, please restart system and try again.</value>
+  </data>
+  <data name="nodevupdated" xml:space="preserve">
+    <value>No devices were updated.</value>
+  </data>
+  <data name="deviceupdatenewver" xml:space="preserve">
+    <value>The following device/s were updated to the latest firmware versions:</value>
+  </data>
+  <data name="devicever" xml:space="preserve">
+    <value>Device version:</value>
+  </data>
+  <data name="guidemessage" xml:space="preserve">
+    <value>This updater will check your Razer Turret for Xbox One keyboard, mouse, and wireless USB dongle and update them if necessary.</value>
+  </data>
+  <data name="conndongleviadock" xml:space="preserve">
+    <value>Plug the USB wireless dongle into your PC.  It can also be connected via the Razer Mouse Dock.</value>
+  </data>
+  <data name="reconnectdev" xml:space="preserve">
+    <value>Please reconnect your device!</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="newver" xml:space="preserve">
+    <value>Latest version:</value>
+  </data>
+  <data name="conntestKB" xml:space="preserve">
+    <value>Connect the keyboard to your PC with the supplied USB cable.</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>UPDATE</value>
+  </data>
+  <data name="checkverfail" xml:space="preserve">
+    <value>Get firmware version failed. 
+Please click retry.</value>
+  </data>
+  <data name="closeallapp" xml:space="preserve">
+    <value>Please also close all other applications before proceeding with the update.</value>
+  </data>
+  <data name="closesynapse" xml:space="preserve">
+    <value>Close Synapse before updating.</value>
+  </data>
+  <data name="noupdaterequired" xml:space="preserve">
+    <value>You already have the latest firmware and no update required.</value>
+  </data>
+  <data name="laptoppower" xml:space="preserve">
+    <value>If you’re using a laptop, ensure that it is plugged into a power outlet.</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>EXIT</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>NEXT</value>
+  </data>
+  <data name="skip" xml:space="preserve">
+    <value>SKIP</value>
+  </data>
+</root>
